@@ -18,6 +18,11 @@
 
     <!-- 依赖项 -->
     <dependencies>
+        <!-- csmall-pojo -->
+        <dependency>
+            <groupId>com.gs</groupId>
+            <artifactId>csmall-pojo</artifactId>
+        </dependency>
         <!-- Mybatis集成Spring Boot -->
         <dependency>
             <groupId>org.mybatis.spring.boot</groupId>

@@ -1,4 +1,4 @@
-package com.gs.smallproduct.webapi;
+package com.gs.csmall.product.webapi;
 
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
@@ -9,7 +9,7 @@ import javax.sql.DataSource;
 
 @SpringBootTest
 @Slf4j
-class SmallProductWebapiApplicationTests {
+class CsmallProductWebapiApplicationTests {
     @Autowired
     DataSource dataSource;
 

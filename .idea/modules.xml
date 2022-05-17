@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/csmall-pojo/csmall-pojo.iml" filepath="$PROJECT_DIR$/csmall-pojo/csmall-pojo.iml" />
       <module fileurl="file://$PROJECT_DIR$/csmall-product/csmall-product.iml" filepath="$PROJECT_DIR$/csmall-product/csmall-product.iml" />
       <module fileurl="file://$PROJECT_DIR$/csmall-server.iml" filepath="$PROJECT_DIR$/csmall-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/csmall-product/small-product-webapi/small-product-webapi.iml" filepath="$PROJECT_DIR$/csmall-product/small-product-webapi/small-product-webapi.iml" />

@@ -26,12 +26,19 @@
         <druid-spring-boot.version>1.2.3</druid-spring-boot.version>
         <lombok.version>1.18.20</lombok.version>
         <knife4j-spring-boot.version>2.0.9</knife4j-spring-boot.version>
+        <csmall-pojo.version>1.0.0</csmall-pojo.version>
     </properties>
 
     <!-- 依赖管理 -->
     <dependencyManagement>
         <!-- 被管理的各依赖项 -->
         <dependencies>
+            <!-- csmall-pojo -->
+            <dependency>
+                <groupId>com.gs</groupId>
+                <artifactId>csmall-pojo</artifactId>
+                <version>${csmall-pojo.version}</version>
+            </dependency>
             <!-- Spring Data实现Elasticsearch开发的依赖项 -->
             <dependency>
                 <groupId>org.springframework.boot</groupId>

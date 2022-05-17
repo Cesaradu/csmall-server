@@ -13,4 +13,4 @@ spring:
 logging:
   # 显示级别
   level:
-    cn.tedu.csmall: trace
+    com.gs.csmall: trace

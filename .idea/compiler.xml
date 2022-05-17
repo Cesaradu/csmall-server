@@ -8,9 +8,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="small-product-webapi" />
+        <module name="csmall-pojo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="csmall-pojo" target="1.8" />
       <module name="csmall-product" target="1.8" />
       <module name="csmall-server" target="1.8" />
       <module name="small-product-webapi" target="1.8" />
@@ -18,6 +20,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="csmall-pojo" options="-parameters" />
       <module name="small-product-webapi" options="-parameters" />
     </option>
   </component>
