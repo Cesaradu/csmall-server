@@ -1,0 +1,6 @@
+# Spring配置
+spring:
+  # Profile配置
+  profiles:
+    # 需要加载的Profile配置文件
+    active: dev

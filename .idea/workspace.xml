@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f4453f2c-2b91-43cb-b11b-5d761852be2d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$PROJECT_DIR$/../../../mvn_repository" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../../apache-maven-3.6.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="29HUHc6dOD1Wbz4LZHgq3X9KFx0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/csmall-product/small-product-webapi/src/main/resources" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.run.dashboard.notification" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/csmall-product/small-product-webapi/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SmallProductWebapiApplicationTests.testGetConnection">
+    <configuration name="SmallProductWebapiApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="small-product-webapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gs.smallproduct.webapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gs.smallproduct.webapi" />
+      <option name="MAIN_CLASS_NAME" value="com.gs.smallproduct.webapi.SmallProductWebapiApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmallProductWebapiApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="small-product-webapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gs.smallproduct.webapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gs.smallproduct.webapi" />
+      <option name="MAIN_CLASS_NAME" value="com.gs.smallproduct.webapi.SmallProductWebapiApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmallProductWebapiApplicationTests.testGetConnection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="small-product-webapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gs.smallproduct.webapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gs.smallproduct.webapi" />
+      <option name="MAIN_CLASS_NAME" value="com.gs.smallproduct.webapi.SmallProductWebapiApplicationTests" />
+      <option name="METHOD_NAME" value="testGetConnection" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CsmallProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="csmall-product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gs.csmallproduct.CsmallProductApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CsmallServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="csmall-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gs.csmallserver.CsmallServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmallProductWebapiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="small-product-webapi" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gs.smallproduct.webapi.SmallProductWebapiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SmallProductWebapiApplicationTests.testGetConnection" />
+        <item itemvalue="JUnit.SmallProductWebapiApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.SmallProductWebapiApplicationTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f4453f2c-2b91-43cb-b11b-5d761852be2d" name="Default Changelist" comment="" />
+      <created>1652769418545</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652769418545</updated>
+      <workItem from="1652769419897" duration="726000" />
+      <workItem from="1652770165116" duration="14000" />
+      <workItem from="1652770405710" duration="1008000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

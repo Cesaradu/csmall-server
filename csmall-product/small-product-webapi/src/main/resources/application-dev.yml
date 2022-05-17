@@ -1,0 +1,16 @@
+# Spring配置
+spring:
+  # 连接数据库的配置
+  datasource:
+    # 连接url
+    url: jdbc:mysql://localhost:3306/mall_pms?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    # 数据库用户名
+    username: root
+    # 数据库密码
+    password: adu673575
+
+# 日志
+logging:
+  # 显示级别
+  level:
+    cn.tedu.csmall: trace
