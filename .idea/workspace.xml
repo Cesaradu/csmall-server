@@ -5,26 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4453f2c-2b91-43cb-b11b-5d761852be2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csmall-pojo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csmall-pojo/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csmall-pojo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csmall-pojo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csmall-pojo/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csmall-pojo/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csmall-pojo/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csmall-pojo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csmall-pojo/src/main/java/com/gs/csmall/pojo/entity/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csmall-product/small-product-webapi/src/main/java/com/gs/csmall/product/webapi/config/MybatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csmall-product/small-product-webapi/src/main/java/com/gs/csmall/product/webapi/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csmall-product/small-product-webapi/src/main/resources/mapper/CategoryMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csmall-product/small-product-webapi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/csmall-product/small-product-webapi/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csmall-product/small-product-webapi/src/main/java/com/gs/smallproduct/webapi/SmallProductWebapiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/csmall-product/small-product-webapi/src/main/java/com/gs/csmall/product/webapi/CsmallProductWebapiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csmall-product/small-product-webapi/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/csmall-product/small-product-webapi/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csmall-product/small-product-webapi/src/test/java/com/gs/smallproduct/webapi/SmallProductWebapiApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/csmall-product/small-product-webapi/src/test/java/com/gs/csmall/product/webapi/CsmallProductWebapiApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csmall-product/small-product-webapi/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/csmall-product/small-product-webapi/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -70,6 +57,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/csmall-product/small-product-webapi/src/main/resources" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.run.dashboard.notification" value="false" />
   </component>
@@ -184,7 +172,7 @@
       <workItem from="1652769419897" duration="726000" />
       <workItem from="1652770165116" duration="14000" />
       <workItem from="1652770405710" duration="3011000" />
-      <workItem from="1652773709192" duration="677000" />
+      <workItem from="1652773709192" duration="1666000" />
     </task>
     <servers />
   </component>
