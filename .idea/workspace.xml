@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4453f2c-2b91-43cb-b11b-5d761852be2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/csmall-product/small-product-webapi/src/main/java/com/gs/csmall/product/webapi/config/MybatisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csmall-product/small-product-webapi/src/main/java/com/gs/csmall/product/webapi/mapper/CategoryMapper.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/csmall-product/small-product-webapi/src/main/resources/mapper/CategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csmall-product/small-product-webapi/src/test/java/com/gs/csmall/product/webapi/mapper/CategoryMapperTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csmall-product/small-product-webapi/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/csmall-product/small-product-webapi/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +20,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
         <option value="spring-beans.schema" />
+        <option value="Mapper" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -58,7 +57,7 @@
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/csmall-product/small-product-webapi/src/main/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
@@ -172,7 +171,7 @@
       <workItem from="1652769419897" duration="726000" />
       <workItem from="1652770165116" duration="14000" />
       <workItem from="1652770405710" duration="3011000" />
-      <workItem from="1652773709192" duration="1666000" />
+      <workItem from="1652773709192" duration="3742000" />
     </task>
     <servers />
   </component>
