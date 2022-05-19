@@ -5,9 +5,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4453f2c-2b91-43cb-b11b-5d761852be2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/csmall-product/small-product-webapi/src/main/resources/mapper/CategoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csmall-product/small-product-webapi/src/test/java/com/gs/csmall/product/webapi/mapper/CategoryMapperTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csmall-commons/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csmall-commons/src/main/java/com/gs/csmall/commons/exception/ServiceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csmall-commons/src/main/java/com/gs/csmall/commons/response/ServiceCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csmall-pojo/src/main/java/com/gs/csmall/pojo/dto/CategoryAddNewDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csmall-pojo/src/main/java/com/gs/csmall/pojo/vo/CategoryStandardVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csmall-product/csmall-product-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csmall-product/csmall-product-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csmall-product/csmall-product-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csmall-product/csmall-product-service/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csmall-product/csmall-product-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csmall-product/csmall-product-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csmall-product/csmall-product-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csmall-product/csmall-product-service/src/main/java/com/gs/csmall/product/service/ICategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/src/main/java/com/gs/csmall/product/webapi/CsmallProductWebapiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/src/main/java/com/gs/csmall/product/webapi/config/MybatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/src/main/java/com/gs/csmall/product/webapi/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/src/main/java/com/gs/csmall/product/webapi/service/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/src/main/resources/mapper/CategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/src/test/java/com/gs/csmall/product/webapi/CsmallProductWebapiApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/src/test/java/com/gs/csmall/product/webapi/mapper/CategoryMapperTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/src/test/java/com/gs/csmall/product/webapi/service/CategoryServiceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/src/test/resources/insert_data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/src/test/resources/truncate.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csmall-pojo/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csmall-product/small-product-webapi/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csmall-product/small-product-webapi/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csmall-product/small-product-webapi/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csmall-product/small-product-webapi/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csmall-product/small-product-webapi/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csmall-product/small-product-webapi/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csmall-product/small-product-webapi/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csmall-product/small-product-webapi/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csmall-product/small-product-webapi/src/main/java/com/gs/csmall/product/webapi/CsmallProductWebapiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csmall-product/small-product-webapi/src/main/java/com/gs/csmall/product/webapi/config/MybatisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csmall-product/small-product-webapi/src/main/java/com/gs/csmall/product/webapi/mapper/CategoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csmall-product/small-product-webapi/src/main/resources/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csmall-product/small-product-webapi/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csmall-product/small-product-webapi/src/main/resources/mapper/CategoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csmall-product/small-product-webapi/src/test/java/com/gs/csmall/product/webapi/CsmallProductWebapiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csmall-product/small-product-webapi/src/test/java/com/gs/csmall/product/webapi/mapper/CategoryMapperTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +72,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="spring-beans.schema" />
         <option value="Mapper" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -49,77 +101,107 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/csmall-product/small-product-webapi/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/csmall-product/small-product-webapi/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SmallProductWebapiApplicationTests.testGetConnection">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CategoryServiceTests">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmallProductWebapiApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="small-product-webapi" />
+    <configuration name="CategoryMapperTests.testGetById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="csmall-product-webapi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gs.smallproduct.webapi.*" />
+          <option name="PATTERN" value="com.gs.csmall.product.webapi.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.gs.smallproduct.webapi" />
-      <option name="MAIN_CLASS_NAME" value="com.gs.smallproduct.webapi.SmallProductWebapiApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SmallProductWebapiApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="small-product-webapi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gs.smallproduct.webapi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.gs.smallproduct.webapi" />
-      <option name="MAIN_CLASS_NAME" value="com.gs.smallproduct.webapi.SmallProductWebapiApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="PACKAGE_NAME" value="com.gs.csmall.product.webapi.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.gs.csmall.product.webapi.mapper.CategoryMapperTests" />
+      <option name="METHOD_NAME" value="testGetById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmallProductWebapiApplicationTests.testGetConnection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="small-product-webapi" />
+    <configuration name="CategoryMapperTests.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="csmall-product-webapi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gs.smallproduct.webapi.*" />
+          <option name="PATTERN" value="com.gs.csmall.product.webapi.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.gs.smallproduct.webapi" />
-      <option name="MAIN_CLASS_NAME" value="com.gs.smallproduct.webapi.SmallProductWebapiApplicationTests" />
-      <option name="METHOD_NAME" value="testGetConnection" />
+      <option name="PACKAGE_NAME" value="com.gs.csmall.product.webapi.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.gs.csmall.product.webapi.mapper.CategoryMapperTests" />
+      <option name="METHOD_NAME" value="testInsert" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CategoryServiceTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="csmall-product-webapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gs.csmall.product.webapi.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gs.csmall.product.webapi.service" />
+      <option name="MAIN_CLASS_NAME" value="com.gs.csmall.product.webapi.service.CategoryServiceTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CategoryServiceTests.testAddNew" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="csmall-product-webapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gs.csmall.product.webapi.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gs.csmall.product.webapi.service" />
+      <option name="MAIN_CLASS_NAME" value="com.gs.csmall.product.webapi.service.CategoryServiceTests" />
+      <option name="METHOD_NAME" value="testAddNew" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CsmallCommonsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="csmall-commons" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gs.csmallcommons.CsmallCommonsApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -138,6 +220,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CsmallProductServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="csmall-product-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gs.csmallproductservice.CsmallProductServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CsmallProductWebapiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="csmall-product-webapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gs.csmall.product.webapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gs.csmall.product.webapi.CsmallProductWebapiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CsmallServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="csmall-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.gs.csmallserver.CsmallServerApplication" />
@@ -146,7 +248,7 @@
       </method>
     </configuration>
     <configuration name="SmallProductWebapiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="small-product-webapi" />
+      <module name="csmall-product-webapi" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.gs.smallproduct.webapi.SmallProductWebapiApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -154,9 +256,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SmallProductWebapiApplicationTests.testGetConnection" />
-        <item itemvalue="JUnit.SmallProductWebapiApplicationTests.contextLoads" />
-        <item itemvalue="JUnit.SmallProductWebapiApplicationTests" />
+        <item itemvalue="JUnit.CategoryServiceTests" />
+        <item itemvalue="JUnit.CategoryServiceTests.testAddNew" />
+        <item itemvalue="Spring Boot.CsmallProductWebapiApplication" />
+        <item itemvalue="JUnit.CategoryMapperTests.testGetById" />
+        <item itemvalue="JUnit.CategoryMapperTests.testInsert" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +275,8 @@
       <workItem from="1652769419897" duration="726000" />
       <workItem from="1652770165116" duration="14000" />
       <workItem from="1652770405710" duration="3011000" />
-      <workItem from="1652773709192" duration="3742000" />
+      <workItem from="1652773709192" duration="21607000" />
+      <workItem from="1652922198039" duration="8105000" />
     </task>
     <servers />
   </component>

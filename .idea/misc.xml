@@ -7,6 +7,9 @@
         <option value="$PROJECT_DIR$/csmall-product/pom.xml" />
         <option value="$PROJECT_DIR$/csmall-product/small-product-webapi/pom.xml" />
         <option value="$PROJECT_DIR$/csmall-pojo/pom.xml" />
+        <option value="$PROJECT_DIR$/csmall-product/csmall-product-service/pom.xml" />
+        <option value="$PROJECT_DIR$/csmall-product/csmall-product-webapi/pom.xml" />
+        <option value="$PROJECT_DIR$/csmall-commons/pom.xml" />
       </list>
     </option>
   </component>
