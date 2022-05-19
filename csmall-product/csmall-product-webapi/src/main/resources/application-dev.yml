@@ -9,6 +9,11 @@ spring:
     # 数据库密码
     password: adu673575
 
+# knife4j配置
+knife4j:
+  # 生产环境屏蔽
+  production: false
+
 # 日志
 logging:
   # 显示级别

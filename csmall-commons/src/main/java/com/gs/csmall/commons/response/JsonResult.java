@@ -1,12 +1,18 @@
 package com.gs.csmall.commons.response;
 
 import com.gs.csmall.commons.exception.ServiceException;
+import io.swagger.annotations.ApiModelProperty;
 
 import java.io.Serializable;
 
 public class JsonResult<T> implements Serializable {
+    @ApiModelProperty(value = "业务状态码", position = 1)
     private Integer state;
+
+    @ApiModelProperty(value = "消息", position = 2)
     private String message;
+
+    @ApiModelProperty(value = "数据", position = 3)
     private T data;
 
     public JsonResult() {

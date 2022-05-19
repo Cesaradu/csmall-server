@@ -1,5 +1,6 @@
 package com.gs.csmall.pojo.vo;
 
+import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
 import java.io.Serializable;
