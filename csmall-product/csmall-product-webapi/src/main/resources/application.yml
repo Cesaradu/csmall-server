@@ -4,6 +4,10 @@ spring:
   profiles:
     # 需要加载的Profile配置文件
     active: dev
+  # jackson配置
+  jackson:
+    # 不显示为null的属性
+    default-property-inclusion: non_null
 
 mybatis:
   mapper-locations: classpath:mapper/*.xml

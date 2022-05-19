@@ -28,12 +28,19 @@
         <knife4j-spring-boot.version>2.0.9</knife4j-spring-boot.version>
         <csmall-pojo.version>1.0.0</csmall-pojo.version>
         <csmall-product-service.version>1.0.0</csmall-product-service.version>
+        <csmall-commons.version>1.0.0</csmall-commons.version>
     </properties>
 
     <!-- 依赖管理 -->
     <dependencyManagement>
         <!-- 被管理的各依赖项 -->
         <dependencies>
+            <!-- csmall-commons -->
+            <dependency>
+                <groupId>com.gs</groupId>
+                <artifactId>csmall-commons</artifactId>
+                <version>${csmall-commons.version}</version>
+            </dependency>
             <!-- csmall-product-service -->
             <dependency>
                 <groupId>com.gs</groupId>

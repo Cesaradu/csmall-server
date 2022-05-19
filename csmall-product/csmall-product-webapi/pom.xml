@@ -18,6 +18,16 @@
 
     <!-- 依赖项 -->
     <dependencies>
+        <!-- Spring Boot Web：集成Spring与Spring MVC -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <!-- csmall-commons -->
+        <dependency>
+            <groupId>com.gs</groupId>
+            <artifactId>csmall-commons</artifactId>
+        </dependency>
         <!-- csmall-product-service -->
         <dependency>
             <groupId>com.gs</groupId>

@@ -1,5 +1,7 @@
 package com.gs.csmall.product.webapi.service;
 
+import com.gs.csmall.commons.exception.ServiceException;
+import com.gs.csmall.commons.response.ServiceCode;
 import com.gs.csmall.pojo.dto.CategoryAddNewDTO;
 import com.gs.csmall.pojo.entity.Category;
 import com.gs.csmall.pojo.vo.CategoryStandardVO;
@@ -11,6 +13,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
+
+import static com.gs.csmall.commons.response.ServiceCode.*;
 
 @Service
 @Slf4j
@@ -29,7 +33,7 @@ public class CategoryServiceImpl implements ICategoryService {
         if (checkNameQueryResult != null) {
             // 是：存在与名称匹配的数据，则名称已经被占用，抛出异常（暂时抛出RuntimeException）
             log.warn("增加类别失败，尝试增加的类别名称【{}】已经存在！", name);
-            throw new RuntimeException("增加类别失败，尝试增加的类别名称已经存在！");
+            throw new ServiceException(CONFLICT, "增加类别失败，尝试增加的类别名称已经存在！");
         }
 
         // 从参数中获取父类类别的id
@@ -47,7 +51,7 @@ public class CategoryServiceImpl implements ICategoryService {
             if (parentCategory == null) {
                 // -- -- 是：父级类别不存在，抛出异常（暂时抛出RuntimeException）
                 log.warn("增加类别失败，选定的父级类别不存在！");
-                throw new RuntimeException("增加类别失败，选定的父级类别不存在！");
+                throw new ServiceException(NOT_FOUND, "增加类别失败，选定的父级类别不存在！");
             } else {
                 // -- -- 否：父级类别存在，从查询结果中获取父类级别的depth，将其增加1，得到当前尝试增加的类别的深度
                 depth = parentCategory.getDepth() + 1;
@@ -73,7 +77,7 @@ public class CategoryServiceImpl implements ICategoryService {
         if (rows != 1) {
             // 是：抛出异常（暂时抛出RuntimeException）
             log.warn("增加类别失败，插入类别数据时出现未知错误！");
-            throw new RuntimeException("增加类别失败，服务器忙，请稍后再次尝试！");
+            throw new ServiceException(INTERNAL_SERVER_ERROR, "增加类别失败，服务器忙，请稍后再次尝试！");
         }
 
         // 判断，父级类别不为0，且父级类别中的parent值为0
@@ -85,7 +89,7 @@ public class CategoryServiceImpl implements ICategoryService {
             if (rows != 1) {
                 // 是：抛出异常（暂时抛出RuntimeException）
                 log.warn("增加类别失败，更新父级类别数据时出现未知错误！");
-                throw new RuntimeException("增加类别失败，服务器忙，请稍后再次尝试！");
+                throw new ServiceException(INTERNAL_SERVER_ERROR, "增加类别失败，服务器忙，请稍后再次尝试！");
             }
         }
 
