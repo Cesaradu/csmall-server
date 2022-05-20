@@ -28,7 +28,6 @@ public class CategoryServiceTests {
         Integer display = 1;
         CategoryAddNewDTO categoryAddNewDTO = new CategoryAddNewDTO();
         categoryAddNewDTO.setName(name);
-        categoryAddNewDTO.setParentId(parentId);
         categoryAddNewDTO.setKeywords(keywords);
         categoryAddNewDTO.setSort(sort);
         categoryAddNewDTO.setIcon(icon);

@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.validation.Valid;
+
 @Api(tags = "1. 类别管理模块")
 @RestController
 @RequestMapping("/categories")
@@ -22,7 +24,7 @@ public class CategoryController {
     @ApiOperation("增加类别")
     @ApiOperationSupport(order = 10)
     @PostMapping("/add-new")
-    public JsonResult<CategoryAddNewVO> addNew(CategoryAddNewDTO categoryAddNewDTO) {
+    public JsonResult<CategoryAddNewVO> addNew(@Valid CategoryAddNewDTO categoryAddNewDTO) {
         Long id = categoryService.addNew(categoryAddNewDTO);
         return JsonResult.ok(new CategoryAddNewVO().setId(id));
     }

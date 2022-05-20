@@ -5,18 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4453f2c-2b91-43cb-b11b-5d761852be2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/src/main/java/com/gs/csmall/product/webapi/config/Knife4jConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csmall-commons/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/csmall-commons/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csmall-commons/src/main/java/com/gs/csmall/commons/response/JsonResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/csmall-commons/src/main/java/com/gs/csmall/commons/response/JsonResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csmall-commons/src/main/java/com/gs/csmall/commons/exception/handler/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/csmall-commons/src/main/java/com/gs/csmall/commons/exception/handler/GlobalExceptionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/csmall-pojo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/csmall-pojo/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/csmall-pojo/src/main/java/com/gs/csmall/pojo/dto/CategoryAddNewDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/csmall-pojo/src/main/java/com/gs/csmall/pojo/dto/CategoryAddNewDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csmall-pojo/src/main/java/com/gs/csmall/pojo/vo/CategoryAddNewVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/csmall-pojo/src/main/java/com/gs/csmall/pojo/vo/CategoryAddNewVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csmall-pojo/src/main/java/com/gs/csmall/pojo/vo/CategoryStandardVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/csmall-pojo/src/main/java/com/gs/csmall/pojo/vo/CategoryStandardVO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/src/main/java/com/gs/csmall/product/webapi/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/src/main/java/com/gs/csmall/product/webapi/controller/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/src/test/java/com/gs/csmall/product/webapi/service/CategoryServiceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/src/test/java/com/gs/csmall/product/webapi/service/CategoryServiceTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +33,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -149,34 +152,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CsmallCommonsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="csmall-commons" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gs.csmallcommons.CsmallCommonsApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CsmallPojoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="csmall-pojo" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gs.csmallpojo.CsmallPojoApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CsmallProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="csmall-product" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gs.csmallproduct.CsmallProductApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CsmallProductServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="csmall-product-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gs.csmallproductservice.CsmallProductServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CsmallProductWebapiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="csmall-product-webapi" />
       <extension name="coverage">
@@ -186,30 +161,25 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.gs.csmall.product.webapi.CsmallProductWebapiApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CsmallServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="csmall-server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gs.csmallserver.CsmallServerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SmallProductWebapiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="csmall-product-webapi" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gs.smallproduct.webapi.SmallProductWebapiApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Database Script.truncate.sql" />
+      <item itemvalue="JUnit.CategoryMapperTests.testGetById" />
+      <item itemvalue="JUnit.CategoryServiceTests" />
+      <item itemvalue="JUnit.CategoryServiceTests.testAddNew" />
+      <item itemvalue="Spring Boot.CsmallProductWebapiApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.CsmallProductWebapiApplication" />
+        <item itemvalue="JUnit.CategoryServiceTests.testAddNew" />
         <item itemvalue="Database Script.truncate.sql" />
         <item itemvalue="JUnit.CategoryServiceTests" />
-        <item itemvalue="JUnit.CategoryServiceTests.testAddNew" />
         <item itemvalue="JUnit.CategoryMapperTests.testGetById" />
       </list>
     </recent_temporary>
@@ -226,7 +196,9 @@
       <workItem from="1652770165116" duration="14000" />
       <workItem from="1652770405710" duration="3011000" />
       <workItem from="1652773709192" duration="21607000" />
-      <workItem from="1652922198039" duration="17671000" />
+      <workItem from="1652922198039" duration="19838000" />
+      <workItem from="1652950229388" duration="818000" />
+      <workItem from="1653011344564" duration="2316000" />
     </task>
     <servers />
   </component>
