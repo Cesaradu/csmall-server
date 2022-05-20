@@ -79,7 +79,6 @@ public class CategoryServiceImpl implements ICategoryService {
             log.warn("增加类别失败，插入类别数据时出现未知错误！");
             throw new ServiceException(INTERNAL_SERVER_ERROR, "增加类别失败，服务器忙，请稍后再次尝试！");
         }
-
         // 判断，父级类别不为0，且父级类别中的parent值为0
         if (parentId != 0 && parentCategory.getParent() == 0) {
             // >> 基于父级别的id，调用mapper的updateParentById()，将父级类别的“parent：是否为父级类别”更新为1，并获取返回值

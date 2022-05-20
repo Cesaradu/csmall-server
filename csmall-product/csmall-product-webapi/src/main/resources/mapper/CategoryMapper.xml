@@ -3,29 +3,39 @@
 
 <mapper namespace="com.gs.csmall.product.webapi.mapper.CategoryMapper">
     <insert id="insert" useGeneratedKeys="true" keyProperty="id">
-        insert into pms_category (name, parent_id, depth, keywords,
-                                  sort, icon, enable, is_parent, is_display, gmt_create, gmt_modified)
-                          values (#{name}, #{parentId}, #{depth}, #{keywords},
-                                  #{sort}, #{icon}, #{enable}, #{parent}, #{display}, #{gmtCreate}, #{gmtModified})
+        insert into pms_category (
+            name, parent_id, depth, keywords,
+            sort, icon, enable, is_parent,
+            is_display
+        ) values (
+            #{name}, #{parentId}, #{depth}, #{keywords},
+            #{sort}, #{icon}, #{enable}, #{parent},
+            #{display}
+        )
     </insert>
 
     <update id="updateParentById">
-        update pms_category set is_parent=#{parent} where id=#{id}
+        update
+            pms_category
+        set
+            is_parent=#{parent}
+        where
+            id=#{id}
     </update>
 
-    <select id="getByName" resultType="com.gs.csmall.pojo.vo.CategoryStandardVO">
+    <select id="getByName" resultMap="StandardResultMap">
         select
-            <include refid="StandardResultMap" />
+        <include refid="StandardQueryFields"/>
         from pms_category where name=#{name}
     </select>
 
-    <select id="getById" resultType="com.gs.csmall.pojo.vo.CategoryStandardVO">
+    <select id="getById" resultMap="StandardResultMap">
         select
-            <include refid="StandardResultMap" />
+        <include refid="StandardQueryFields"/>
         from pms_category where id=#{id}
     </select>
 
-    <sql id="StandardResultMap">
+    <sql id="StandardQueryFields">
         <if test="true">
             id,
             name,
@@ -41,8 +51,8 @@
     </sql>
 
     <resultMap id="StandardResultMap" type="com.gs.csmall.pojo.vo.CategoryStandardVO">
-        <id column="id" property="id" />
-        <result column="name" property="name" />
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
         <result column="parent_id" property="parentId"/>
         <result column="depth" property="depth"/>
         <result column="keywords" property="keywords"/>
