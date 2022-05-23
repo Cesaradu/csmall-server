@@ -5,22 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4453f2c-2b91-43cb-b11b-5d761852be2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/csmall-pojo/src/main/java/com/gs/csmall/pojo/dto/BrandAddNewDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csmall-pojo/src/main/java/com/gs/csmall/pojo/entity/Brand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csmall-pojo/src/main/java/com/gs/csmall/pojo/valid/AlbumRegExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csmall-pojo/src/main/java/com/gs/csmall/pojo/valid/AttributeRegExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csmall-pojo/src/main/java/com/gs/csmall/pojo/valid/BrandRegExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csmall-pojo/src/main/java/com/gs/csmall/pojo/valid/CategoryRegExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csmall-pojo/src/main/java/com/gs/csmall/pojo/valid/RegExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csmall-pojo/src/main/java/com/gs/csmall/pojo/vo/BrandAddNewVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csmall-pojo/src/main/java/com/gs/csmall/pojo/vo/BrandStandardVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csmall-product/csmall-product-service/src/main/java/com/gs/csmall/product/service/IBrandService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/src/main/java/com/gs/csmall/product/webapi/controller/BrandController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/src/main/java/com/gs/csmall/product/webapi/mapper/BrandMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/src/main/java/com/gs/csmall/product/webapi/service/BrandServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/src/main/resources/mapper/BrandMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csmall-pojo/src/main/java/com/gs/csmall/pojo/dto/AlbumAddNewDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csmall-pojo/src/main/java/com/gs/csmall/pojo/entity/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csmall-pojo/src/main/java/com/gs/csmall/pojo/vo/AlbumAddNewVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csmall-pojo/src/main/java/com/gs/csmall/pojo/vo/AlbumStandardVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csmall-product/csmall-product-service/src/main/java/com/gs/csmall/product/service/IAlbumService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/src/main/java/com/gs/csmall/product/webapi/controller/AlbumController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/src/main/java/com/gs/csmall/product/webapi/mapper/AlbumMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/src/main/java/com/gs/csmall/product/webapi/service/AlbumServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/src/main/resources/mapper/AlbumMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csmall-pojo/src/main/java/com/gs/csmall/pojo/dto/CategoryAddNewDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/csmall-pojo/src/main/java/com/gs/csmall/pojo/dto/CategoryAddNewDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/src/main/java/com/gs/csmall/product/webapi/controller/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/src/main/java/com/gs/csmall/product/webapi/controller/BrandController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +213,7 @@
       <workItem from="1652922198039" duration="19838000" />
       <workItem from="1652950229388" duration="818000" />
       <workItem from="1653011344564" duration="14032000" />
-      <workItem from="1653265503657" duration="7610000" />
+      <workItem from="1653265503657" duration="10120000" />
     </task>
     <servers />
   </component>

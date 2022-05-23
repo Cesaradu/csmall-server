@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.validation.Valid;
+
 @RestController
 @RequestMapping("/brands")
 @Api(tags = "2. 品牌管理模块")
@@ -22,7 +24,7 @@ public class BrandController {
     @ApiOperation(value = "增加品牌", notes = "需要商品后台【写】权限：/pms/product/update")
     @ApiOperationSupport(order = 10)
     @PostMapping("/add-brand")
-    public JsonResult<BrandAddNewVO> addNew(BrandAddNewDto brandAddNewDto) {
+    public JsonResult<BrandAddNewVO> addNew(@Valid BrandAddNewDto brandAddNewDto) {
         Long id = brandService.addNew(brandAddNewDto);
         return JsonResult.ok(new BrandAddNewVO().setId(id));
     }

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.gs.csmall.product.webapi.mapper.AlbumMapper">
+
+    <insert id="insert" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO pms_album (name,
+                               description,
+                               sort)
+        VALUES (#{name},
+                #{description},
+                #{sort})
+    </insert>
+    <select id="getByName" resultMap="StandardResultMap">
+        select
+        <include refid="StandardQueryField"></include>
+        from pms_album
+        where name = #{name}
+    </select>
+
+    <!-- 标准查询映射结果 -->
+    <sql id="StandardQueryField">
+        <if test="true">
+            id,
+            name,
+            description,
+            sort
+        </if>
+    </sql>
+
+    <!-- 标准查询映射结果 -->
+    <resultMap id="StandardResultMap" type="com.gs.csmall.pojo.vo.BrandStandardVO">
+        <id column="id" property="id"></id>
+        <result column="name" property="name"/>
+        <result column="description" property="description"/>
+        <result column="sort" property="sort"/>
+    </resultMap>
+</mapper>
