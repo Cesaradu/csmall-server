@@ -35,6 +35,26 @@
         from pms_category where id=#{id}
     </select>
 
+    <select id="getList" resultMap="StandardResultMap">
+        select
+        <include refid="ListQueryFields" />
+        from pms_category
+        order by
+        sort, id desc
+    </select>
+
+    <sql id="ListQueryFields">
+        <if test="true">
+            id,
+            name,
+            parent_id,
+            depth,
+            icon,
+            enable,
+            is_display
+        </if>
+    </sql>
+
     <sql id="StandardQueryFields">
         <if test="true">
             id,

@@ -1,15 +1,19 @@
 package com.gs.csmall.product.webapi.service;
 
 import com.gs.csmall.pojo.dto.CategoryAddNewDTO;
-import com.gs.csmall.pojo.vo.CategoryStandardVO;
+import com.gs.csmall.pojo.vo.CategoryListItemVO;
 import com.gs.csmall.product.service.ICategoryService;
+import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.jdbc.Sql;
 
+import java.util.List;
+
 @SpringBootTest
+@Slf4j
 public class CategoryServiceTests {
     @Autowired
     private ICategoryService categoryService;
@@ -65,5 +69,13 @@ public class CategoryServiceTests {
         Assertions.assertThrows(RuntimeException.class, () -> {
             categoryService.addNew(categoryAddNewDTO);
         });
+    }
+
+    @Test
+    @Sql(scripts = {"classpath:truncate.sql", "classpath:insert_data.sql"})
+    @Sql(scripts = {"classpath:truncate.sql"}, executionPhase = Sql.ExecutionPhase.AFTER_TEST_METHOD)
+    void testGetList() {
+        List<CategoryListItemVO> list = categoryService.getList();
+        log.debug("查询到的数据：{}", list);
     }
 }

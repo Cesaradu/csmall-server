@@ -4,6 +4,7 @@ import com.gs.csmall.commons.exception.ServiceException;
 import com.gs.csmall.commons.response.ServiceCode;
 import com.gs.csmall.pojo.dto.CategoryAddNewDTO;
 import com.gs.csmall.pojo.entity.Category;
+import com.gs.csmall.pojo.vo.CategoryListItemVO;
 import com.gs.csmall.pojo.vo.CategoryStandardVO;
 import com.gs.csmall.product.service.ICategoryService;
 import com.gs.csmall.product.webapi.mapper.CategoryMapper;
@@ -13,6 +14,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
+import java.util.List;
 
 import static com.gs.csmall.commons.response.ServiceCode.*;
 
@@ -95,5 +97,10 @@ public class CategoryServiceImpl implements ICategoryService {
         // 返回新增的类别的id，即调用insert()时的参数中的id属性值
         log.debug("增加类别，完成，将返回新增的类别的id：{}", category.getId());
         return category.getId();
+    }
+
+    @Override
+    public List<CategoryListItemVO> getList() {
+        return categoryMapper.getList();
     }
 }

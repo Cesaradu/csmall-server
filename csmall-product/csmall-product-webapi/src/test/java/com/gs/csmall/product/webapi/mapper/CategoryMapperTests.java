@@ -1,6 +1,7 @@
 package com.gs.csmall.product.webapi.mapper;
 
 import com.gs.csmall.pojo.entity.Category;
+import com.gs.csmall.pojo.vo.CategoryListItemVO;
 import com.gs.csmall.pojo.vo.CategoryStandardVO;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Assertions;
@@ -8,6 +9,8 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.jdbc.Sql;
+
+import java.util.List;
 
 @SpringBootTest
 @Slf4j
@@ -93,5 +96,13 @@ public class CategoryMapperTests {
         CategoryStandardVO category = categoryMapper.getById(id);
         // 断言结果：查询结果为null（因为没有匹配的数据）
         Assertions.assertNull(category);
+    }
+
+    @Test
+    @Sql(scripts = {"classpath:truncate.sql", "classpath:insert_data.sql"})
+    @Sql(scripts = {"classpath:truncate.sql"}, executionPhase = Sql.ExecutionPhase.AFTER_TEST_METHOD)
+    void testGetList() {
+        List<CategoryListItemVO> list = categoryMapper.getList();
+        log.debug("查询到的数据：{}", list);
     }
 }

@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4453f2c-2b91-43cb-b11b-5d761852be2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/src/main/java/com/gs/csmall/product/webapi/config/MybatisInterceptorConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/src/main/java/com/gs/csmall/product/webapi/interceptor/SqlInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csmall-pojo/src/main/java/com/gs/csmall/pojo/vo/CategoryListItemVO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csmall-product/csmall-product-service/src/main/java/com/gs/csmall/product/service/ICategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/csmall-product/csmall-product-service/src/main/java/com/gs/csmall/product/service/ICategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/src/main/java/com/gs/csmall/product/webapi/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/src/main/java/com/gs/csmall/product/webapi/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/src/main/java/com/gs/csmall/product/webapi/interceptor/SqlInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/src/main/java/com/gs/csmall/product/webapi/interceptor/SqlInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/src/main/java/com/gs/csmall/product/webapi/mapper/CategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/src/main/java/com/gs/csmall/product/webapi/mapper/CategoryMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/src/main/java/com/gs/csmall/product/webapi/service/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/src/main/java/com/gs/csmall/product/webapi/service/CategoryServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/src/main/resources/mapper/CategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/src/main/resources/mapper/CategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/src/test/java/com/gs/csmall/product/webapi/mapper/CategoryMapperTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/src/test/java/com/gs/csmall/product/webapi/mapper/CategoryMapperTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/src/test/java/com/gs/csmall/product/webapi/service/CategoryServiceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/csmall-product/csmall-product-webapi/src/test/java/com/gs/csmall/product/webapi/service/CategoryServiceTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,25 +90,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.CsmallProductWebapiApplication">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="truncate.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
-      <script-file value="$PROJECT_DIR$/csmall-product/csmall-product-webapi/src/test/resources/truncate.sql" />
-      <script-mode>FILE</script-mode>
-      <method v="2" />
-    </configuration>
-    <configuration name="CategoryMapperTests.testGetById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CategoryMapperTests.testGetList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="csmall-product-webapi" />
       <extension name="coverage">
         <pattern>
@@ -113,7 +100,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.gs.csmall.product.webapi.mapper" />
       <option name="MAIN_CLASS_NAME" value="com.gs.csmall.product.webapi.mapper.CategoryMapperTests" />
-      <option name="METHOD_NAME" value="testGetById" />
+      <option name="METHOD_NAME" value="testGetList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -150,6 +137,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CategoryServiceTests.testGetList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="csmall-product-webapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gs.csmall.product.webapi.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gs.csmall.product.webapi.service" />
+      <option name="MAIN_CLASS_NAME" value="com.gs.csmall.product.webapi.service.CategoryServiceTests" />
+      <option name="METHOD_NAME" value="testGetList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CsmallProductWebapiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="csmall-product-webapi" />
       <extension name="coverage">
@@ -166,19 +169,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Database Script.truncate.sql" />
-      <item itemvalue="JUnit.CategoryMapperTests.testGetById" />
       <item itemvalue="JUnit.CategoryServiceTests" />
       <item itemvalue="JUnit.CategoryServiceTests.testAddNew" />
+      <item itemvalue="JUnit.CategoryMapperTests.testGetList" />
+      <item itemvalue="JUnit.CategoryServiceTests.testGetList" />
       <item itemvalue="Spring Boot.CsmallProductWebapiApplication" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.CsmallProductWebapiApplication" />
-        <item itemvalue="JUnit.CategoryServiceTests.testAddNew" />
-        <item itemvalue="Database Script.truncate.sql" />
+        <item itemvalue="JUnit.CategoryServiceTests.testGetList" />
+        <item itemvalue="JUnit.CategoryMapperTests.testGetList" />
         <item itemvalue="JUnit.CategoryServiceTests" />
-        <item itemvalue="JUnit.CategoryMapperTests.testGetById" />
+        <item itemvalue="JUnit.CategoryServiceTests.testAddNew" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +199,8 @@
       <workItem from="1652773709192" duration="21607000" />
       <workItem from="1652922198039" duration="19838000" />
       <workItem from="1652950229388" duration="818000" />
-      <workItem from="1653011344564" duration="10109000" />
+      <workItem from="1653011344564" duration="14032000" />
+      <workItem from="1653265503657" duration="3849000" />
     </task>
     <servers />
   </component>

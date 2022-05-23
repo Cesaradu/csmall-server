@@ -1,9 +1,12 @@
 package com.gs.csmall.product.webapi.mapper;
 
 import com.gs.csmall.pojo.entity.Category;
+import com.gs.csmall.pojo.vo.CategoryListItemVO;
 import com.gs.csmall.pojo.vo.CategoryStandardVO;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
+
+import java.util.List;
 
 @Repository // 如果无此注解，Idea可能提示无法装配的错误，但不影响运行
 public interface CategoryMapper {
@@ -38,4 +41,11 @@ public interface CategoryMapper {
      * @return 受影响的行数
      */
     int updateParentById(@Param("id") Long id, @Param("parent") Integer parent);
+
+    /**
+     * 查询类别的列表
+     *
+     * @return 类别的列表，如果数据表中无数据，则返回长度为0的列表
+     */
+    List<CategoryListItemVO> getList();
 }
